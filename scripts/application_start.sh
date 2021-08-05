@@ -11,9 +11,9 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # loads nvm	
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # loads nvm bash_completion (node is in path now)
 
-nvm install 
+nvm install 12.22.4
 #install node modules
-npm install 12.22.4
+npm install 
 npm run build
 node dist/src/main.js  
 #start our nestJs app in the background
