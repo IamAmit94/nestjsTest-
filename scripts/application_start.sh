@@ -15,6 +15,6 @@ nvm install 12.22.4
 #install node modules
 npm install 
 npm run build
-node dist/src/main.js > app.out.log 2> app.err.log < /dev/null & 
+pm2 start dist/src/main.js > app.out.log 2> app.err.log < /dev/null & 
 #start our nestJs app in the background
 #node app.js 
