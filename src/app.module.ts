@@ -24,7 +24,7 @@ import { AppService } from './app.service';
       port: 5432,
       host: 'localhost',
       username: 'postgres',
-      password: 'password',
+      password: 'StrongPassword',
       // logging: 'all',
       // logger: 'advanced-console',
       database: 'userTask',
