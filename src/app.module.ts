@@ -22,9 +22,9 @@ import { AppService } from './app.service';
     TypeOrmModule.forRoot({
       type: 'postgres',
       port: 5432,
-      host: 'localhost',
-      username: 'amitr',
-      password: 'password',
+      host: '65.1.117.238',
+      username: 'khushadmin',
+      password: 'vCrew#@*&',
       // logging: 'all',
       // logger: 'advanced-console',
       database: 'userTask',
