@@ -7,5 +7,5 @@ echo "Stopping any existing node servers"
     pkill node
 
 } || { # catch
-    echo "failed"
+    echo "failed 1.0"
 }
